@@ -3,19 +3,37 @@ body{
 text-align:center;
 font-size:2rem;
 margin-bottom:60px;
-background-color: cadetblue;
+background-color:cornflowerblue;
 
 }
+    section{
+    background-color: #0f172a;
+    color:white;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
 
-h1{
-    margin: 0%;
+    margin:0;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+
+}
+h1:hover{
+    transform: scale(1.2);
+    transition: 2s; 
+    maxwidth: 70%;
+    margin: 0%; 
     padding: 0%;
     background-color: black;
-    color: blue;
+    color:cornflowerblue;
     border-radius: 5px;
     border: 3px solid white ;
+    fontzize: 30px;
 }
-
+    hover
 .suii{
     display:inline-block;
     background:black;
@@ -76,7 +94,9 @@ color:transparent;
 font-weight:700;
 }
 
-
+h2{
+    color:dodgerblue
+}
 .card ul{
 list-style:none;
 color:#bbb;
