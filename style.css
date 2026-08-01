@@ -16,6 +16,17 @@ h1{
     border: 3px solid white ;
 }
 
+.suii{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:8px 16px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-top:10px;
+    transition:0.3s;
+    max-width: 40%;
+}
 p{
     color: azure;
 }
@@ -81,3 +92,22 @@ color:#666;
 border-top:1px solid #1a1a1a;
 }
 
+    @media (max-width:768px) {
+        .header{
+            flex-direction:column;
+            gap: 12px;
+        }
+        h1{
+            font-size:32px;
+
+        }
+        .btn{
+            width:100;
+    
+        }
+
+        section{
+            widht:90%;
+            padding:15;
+        }
+    }
