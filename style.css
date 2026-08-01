@@ -1,13 +1,5 @@
-
 body{
-text-align:center;
-font-size:2rem;
-margin-bottom:60px;
-background-color:white;
-
-}
-    section{
-    background-color: grey  ;
+    background: linear-gradient(135deg,#0f172a,#1e293b,#020617);
     color:white;
     text-align:center;
     display:flex;
@@ -15,11 +7,11 @@ background-color:white;
     justify-content:center;
     align-items:center;
     padding:20px;
-
+    min-height:100vh;
     margin:0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     border-radius: 5px;
-
+    
 }
 h1:hover{
     transform: scale(1.2);
@@ -37,13 +29,25 @@ h1:hover{
     display:inline-block;
     background:black;
     color:white;
-    padding:8px 16px;
+    padding: 0 ;
     border-radius:20px;
     font-weight:bold;
-    margin-top:10px;
+    margin-top:0px;
     transition:0.3s;
     max-width: 40%;
+    
 }
+section{
+    background-color:#0f172a;
+    border:1px solid #334155;
+    padding:20px;
+    width:90%;
+    max-width:340px;
+    border-radius:12px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+    margin-bottom:20px;
+    border-radius: 10px;
+    border: 2px white solid;}
 p{
     color: azure;
 }
@@ -69,8 +73,7 @@ gap:30px;
 padding:40px 30px;
 border-radius:20px;
 text-align:center;
-border:1px solid white;
-
+border:1px solid #1a1a1a;
 }
 .texto{
     font-size: 20px ;
@@ -97,20 +100,18 @@ font-weight:700;
 h2{
     color:dodgerblue
 }
-.card ul{
-list-style:none;
-color:#bbb;
-margin-bottom:25px;
-line-height:1.8;
+.Pss:hover{
+    display:inline-block;
+    background:black;
+    color:#22d3ee;
+    padding:4px 10px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-top:5px;
+    transition:0.3s;
 }
 
 
-footer{
-padding:40px 8%;
-text-align:center;
-color:#666;
-border-top:1px solid #1a1a1a;
-}
 
     @media (max-width:768px) {
         .header{
