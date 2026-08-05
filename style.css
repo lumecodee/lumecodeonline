@@ -10,8 +10,7 @@ body{
     min-height:100vh;
     margin:0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 h1:hover{
     transform: scale(1.2);
@@ -24,7 +23,38 @@ h1:hover{
     border: 3px solid white ;
     fontzize: 30px;
 }
-        .ABCA{
+        
+
+.suii{
+    background-color:#0f172a;
+    border:1px solid #334155;
+    padding:20px;
+    width:90%;
+    max-width:340px;
+    border-radius:12px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+    margin-bottom:20px;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+
+section {
+    background-color:#0f172a;
+    border:1px solid #334155;
+    padding:20px;
+    width:90%;
+    max-width:340px;
+    border-radius:12px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+    margin-bottom:20px;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+p{
+    color: azure;
+}
+
+.ABCA{
             background-color:#0f172a;
             border:1px solid #334155;
             padding:20px;
@@ -36,33 +66,6 @@ h1:hover{
             border-radius: 10px;
             border: 2px white solid;
         }
-
-.suii{
-    display:inline-block;
-    background:black;
-    color:white;
-    padding: 0 ;
-    border-radius:20px;
-    font-weight:bold;
-    margin-top:0px;
-    transition:0.3s;
-    max-width: 40%;
-    
-}
-section{
-    background-color:#0f172a;
-    border:1px solid #334155;
-    padding:20px;
-    width:90%;
-    max-width:340px;
-    border-radius:12px;
-    box-shadow:0 10px 40px rgba(0,0,0,0.6);
-    margin-bottom:20px;
-    border-radius: 10px;
-    border: 2px white solid;}
-p{
-    color: azure;
-}
 
     .link img:hover{
     transform: scale(1.1);
