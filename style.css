@@ -24,7 +24,19 @@ h1:hover{
     border: 3px solid white ;
     fontzize: 30px;
 }
-    hover
+        .ABCA{
+            background-color:#0f172a;
+            border:1px solid #334155;
+            padding:20px;
+            width:90%;
+            max-width:340px;
+            border-radius:12px;
+            box-shadow:0 10px 40px rgba(0,0,0,0.6);
+            margin-bottom:20px;
+            border-radius: 10px;
+            border: 2px white solid;
+        }
+
 .suii{
     display:inline-block;
     background:black;
