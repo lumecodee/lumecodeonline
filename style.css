@@ -67,7 +67,7 @@ p{
             border: 2px white solid;
         }
 
-    .link img:hover{
+ .link img:hover{
     transform: scale(1.1);
     transition: 1s;
 }   
@@ -112,8 +112,17 @@ font-size:1.3rem;
 }
 
 a{
-
-    color:aliceblue
+     color:white;
+  filter: drop-shadow(0 0 5px  white)
+          drop-shadow(0 0 15px white);
+          display:inline-block;
+    background:black;
+    color:#22d3ee;
+    padding:4px 10px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-top:5px;
+    transition:0.3s;
 }
 
 .price{
@@ -128,7 +137,7 @@ font-weight:700;
 h2{
     color:dodgerblue
 }
-.Pss:hover{
+.Pss{
     display:inline-block;
     background:black;
     color:#22d3ee;
