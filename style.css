@@ -12,6 +12,9 @@ body{
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     border-radius: 5px; 
 }
+textprim{
+    color: aqua;
+}
 h1:hover{
     transform: scale(1.2);
     transition: 2s;
@@ -51,7 +54,7 @@ section {
     border: 2px white solid;
 }
 p{
-    color: azure;
+    color:rgba(0, 0, 255, 0.445);
 }
 
 .ABCA{
